@@ -1,0 +1,141 @@
+* {
+ 
+  color: #3e2929;
+  font-family: Roboto;
+  margin-right: 1%;
+  margin-left: 1%;
+  text-align: justify;
+}
+body {
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  font-family: Roboto, sans-serif;
+  color: #00305f;
+}
+header {
+  text-align: center
+}
+header ul li a{
+  text-decoration: none;
+  color: #0f7022;
+}
+.profile-pic {
+  float: right;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.Resumen {
+  font-family: Verdana, sans-serif;
+     width: 50%;
+     margin-right: 25%;
+     margin-left: 25%;
+     text-align: justify;
+     /*background-color:red; --> me ayudo a identificar como estaba quedando*/ 
+ 
+   }
+.nombre {
+  font-family: Verdana, sans-serif;
+  color: #700f0f;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center;
+}
+.redes {
+  color: #0f7022;
+  font-family: Verdana, sans-serif;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center;
+  text-decoration: none;
+  /*color: #2c2b2b;*/
+}
+.experiencia{
+  
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: justify;
+  /*background-color:red;*/
+}
+.subtitulo {
+  color: #3e2929;
+  font-family: Roboto, sans-serif;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center; 
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: Verdana, sans-serif;
+  width: 50%;
+  margin-right: 20%;
+  margin-left: 25%;
+  text-align: center;
+}
+h2 {
+  font-family: Verdana, sans-serif;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center;
+}
+h3{
+  font-family: Roboto;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center;
+  text-decoration:solid;
+  /*background-color:red;*/
+}
+ul {
+  list-style: none;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: justify;
+}
+footer {
+  font-family: Verdana, sans-serif;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center;
+  text-decoration: none;
+}
+.contenedor1 {
+  max-width: 20px;
+  height: 5vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 25px;
+  height: 25px;
+  background: #fdfdfd;
+  border-radius: 10;
+  border: none;
+  cursor: pointer;
+  padding: 30;
+  color: aliceblue;
+  font-size: 20px;
+  transition: .3s ease all;
+  align-items: center; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all .4s ease-in-out;
+}
+button:hover {
+  background: #937926;
+  color: #e7e087;
+  box-shadow: 3px 3px 50px rgba(0,0,0,.015);
+  align-items: center;
+}
